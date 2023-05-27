@@ -4,7 +4,7 @@ import { JwtAuthGuard } from '../guards/jwt-auth.guard';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UsersService } from './users.service';
 
-@Controller('users')
+@Controller('auth/users')
 export class UsersController {
   protected readonly logger = new Logger(UsersController.name);
 
