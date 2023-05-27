@@ -33,3 +33,13 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+#secret
+gcr-json-key.yaml
+google.yaml
+googletoken.yaml
+jwt.yaml
+mongodb.yaml
+sa.yaml
+stripe.yaml
+sleepr-387818-637fcc8d9d22.json
