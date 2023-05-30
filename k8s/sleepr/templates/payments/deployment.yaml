@@ -15,7 +15,8 @@ spec:
         app: payments
     spec:
       containers:
-        - image: us-west2-docker.pkg.dev/sleepr-387818/payments/production
+        - image: 362370933400.dkr.ecr.us-east-1.amazonaws.com/payments:latest
+        #us-west2-docker.pkg.dev/sleepr-387818/payments/production  -- google
           name: payments
           env:
             - name: PAYMENTS_SERVICE_PORT
