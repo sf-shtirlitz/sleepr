@@ -21,7 +21,7 @@ async function bootstrap() {
   //every request
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
   app.useLogger(app.get(Logger));
-  app.setGlobalPrefix('/auth');
+//  app.setGlobalPrefix('/auth');
   await app.startAllMicroservices();
   await app.listen(configService.get('HTTP_PORT'));
 }
