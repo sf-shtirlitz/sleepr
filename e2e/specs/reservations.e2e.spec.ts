@@ -6,7 +6,7 @@ describe('Reservations', () => {
       email: 'sleeprnestapp@gmail.com',
       password: 'StrogPassword123!@',
     };
-    await fetch('http://auth:3001/users', {
+    await fetch('http://auth:3001/auth/users', {
       method: 'POST',
       body: JSON.stringify(user),
       headers: {
